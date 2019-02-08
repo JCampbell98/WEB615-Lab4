@@ -48,7 +48,6 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem "rails-erd"
   gem 'annotate'
-  gem 'faker'
 
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
@@ -70,3 +69,5 @@ group :production do
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'will_paginate', '~> 3.1.0'
+
+gem 'faker'
